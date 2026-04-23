@@ -1,3 +1,22 @@
+:root{
+    box-sizing: border-box;
+}
+
 body{
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+    margin: 0;
+}
+
+.visual-section{
+    flex: 2;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-section{
+    flex: 4.1;
     background-color: black;
 }
