@@ -46,9 +46,6 @@ body{
     font-family: "ignorance", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: clamp(3rem, 0.75rem + 4vw, 5rem);
     color: white;
-
-    position: relative; /*This two lines centers the text relative to the icon, the font has an offset*/
-    top: 10px;
 }
 
 .form-section{
