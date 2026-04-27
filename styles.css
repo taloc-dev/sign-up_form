@@ -48,6 +48,29 @@ body{
     color: white;
 }
 
+.photo-credit{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: .9rem;
+
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    padding: 2px;
+}
+
+.photo-credit a{
+    color: white;
+}
+.photo-credit a:hover{
+    color: rgb(255, 195, 195);
+}
+.photo-credit a:active{
+    color: rgb(194, 149, 149);
+}
+
+
 .form-section{
     flex: 4.1;
     background-color: black;
