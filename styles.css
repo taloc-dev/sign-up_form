@@ -76,7 +76,6 @@ body{
     display: flex;
     flex-flow: column;
     justify-content: center;
-    gap: 30px;
 }
 
 fieldset{
@@ -106,4 +105,17 @@ input{
     border-bottom: 1px solid rgb(34, 34, 34);
 
     width: 60%;
+}
+
+.service-desc{
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+
+button{
+    margin: 30px 70px;
+}
+
+.log-in-opt{
+    margin-left: 70px;
 }
