@@ -69,8 +69,36 @@ body{
     color: rgb(194, 149, 149);
 }
 
-
 .form-section{
-    flex: 4.1;
-    background-color: black;
+    flex: 3;
+    background-color: rgb(34, 34, 34);
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+
+    border: none;
+    background-color: rgb(240, 84, 79);
+    padding: 20px;
+
+    margin: 0;
+    position: relative;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+
+    width: 400px;
+    margin: 30px 50px;
+}
+
+.form-field input{
+    width: 55%;
 }
