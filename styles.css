@@ -120,6 +120,24 @@ input{
 
 button{
     margin: 30px 70px;
+    padding: 10px 50px;
+
+    background-color: rgb(240, 84, 79);
+    color: white;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: rgb(214, 74, 70);
+}
+
+button:active{
+    background-color: rgb(190, 66, 62);
 }
 
 .log-in-opt{
