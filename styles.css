@@ -127,6 +127,7 @@ label{
     letter-spacing: 1px;
 
     margin-bottom: 3px;
+    width: fit-content;
 }
 
 ::placeholder{
