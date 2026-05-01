@@ -102,10 +102,35 @@ fieldset{
 input{
     background-color: rgb(240, 84, 79, 0);
 
-    border: none;
-    border-bottom: 1px solid rgb(34, 34, 34);
+    border: 1px dotted rgb(172, 61, 58);
+    border-radius: 5px;
 
+    padding: 5px;
     width: 60%;
+
+    font-size: 1.2rem;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 3px 3px black;
+    border: 1px solid rgb(102, 37, 33);
+}
+
+input:user-valid{
+    border: 1px solid rgb(102, 37, 33);
+}
+
+label{
+    color: black;
+    font-size: .8rem;
+    letter-spacing: 1px;
+
+    margin-bottom: 3px;
+}
+
+::placeholder{
+    color: rgb(163, 41, 41);
 }
 
 .service-desc{
