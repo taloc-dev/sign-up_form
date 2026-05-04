@@ -110,6 +110,7 @@ input{
     width: 60%;
 
     font-size: 1.15rem;
+    order: 1;
 }
 
 input:focus{
@@ -137,6 +138,17 @@ label{
 
     padding-bottom: 3px;
     width: fit-content;
+}
+
+label::after{
+    content: " invalid input";
+    font-size: .8rem;
+    color: red;
+    visibility: hidden;
+}
+
+input:user-invalid + label::after{
+    visibility: visible;
 }
 
 ::placeholder{
