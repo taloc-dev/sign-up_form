@@ -84,7 +84,7 @@ fieldset{
     flex-wrap: wrap;
 
     border: none;
-    background-color: rgb(240, 84, 79);
+    background-color: #E8E9EB;
     padding: 20px;
 
     margin: 0;
@@ -97,28 +97,37 @@ fieldset{
 
     width: 400px;
     margin: 30px 50px;
+    position: relative;
 }
 
 input{
     background-color: rgb(240, 84, 79, 0);
 
-    border: 1px dotted rgb(172, 61, 58);
+    border: 1px dotted #97989b;
     border-radius: 5px;
 
     padding: 5px;
     width: 60%;
 
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 
 input:focus{
     outline: none;
     box-shadow: 3px 3px black;
-    border: 1px solid rgb(102, 37, 33);
+    border: 1px solid #7d89ac;
 }
 
 input:user-valid{
-    border: 1px solid rgb(102, 37, 33);
+    border: 1px solid #6ead68;   
+}
+
+input:user-invalid{
+    border: 1px solid #bb4b4b; 
+}
+
+input[id$="pass"]:invalid{
+    border: 1px solid #d83131;
 }
 
 label{
@@ -131,7 +140,7 @@ label{
 }
 
 ::placeholder{
-    color: rgb(163, 41, 41);
+    color: #7d89acad;
 }
 
 .service-desc{
