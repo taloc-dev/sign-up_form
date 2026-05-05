@@ -86,9 +86,21 @@ fieldset{
     border: none;
     background-color: #E8E9EB;
     padding: 20px;
+    padding-top: 50px;
 
     margin: 0;
     position: relative;
+}
+
+legend{
+    position: absolute;
+    left: 70px;
+    top: 7px;
+
+    color: black;
+    font-size: 1.75rem;
+
+    letter-spacing: .3ch;
 }
 
 .form-field{
@@ -99,6 +111,7 @@ fieldset{
     margin: 30px 50px;
     position: relative;
 }
+
 
 input{
     background-color: rgb(240, 84, 79, 0);
