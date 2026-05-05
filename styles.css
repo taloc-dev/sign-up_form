@@ -24,6 +24,8 @@ body{
     align-items: stretch;
     height: 100vh;
     margin: 0;
+
+    background-color: rgb(34, 34, 34);
 }
 
 .visual-section{
@@ -106,7 +108,7 @@ legend{
     color: black;
     font-size: 1.75rem;
 
-    letter-spacing: .3ch;
+    letter-spacing: .25ch;
 }
 
 .form-field{
@@ -114,7 +116,7 @@ legend{
     flex-direction: column;
 
     width: 400px;
-    margin: 30px 50px;
+    margin: 15px 50px;
     position: relative;
 }
 
