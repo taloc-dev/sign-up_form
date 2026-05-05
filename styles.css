@@ -140,9 +140,9 @@ label{
     width: fit-content;
 }
 
-label::after{
-    content: " invalid input";
-    font-size: .8rem;
+label:not([for$="pass"])::after{
+    content: " Invalid input.";
+    font-size: .7rem;
     color: red;
     visibility: hidden;
 }
@@ -150,6 +150,18 @@ label::after{
 input:user-invalid + label::after{
     visibility: visible;
 }
+
+label[for$="pass"]::after{
+    content: " Please fill out.";
+    font-size: .7rem;
+    color: red;
+    visibility: hidden;
+}
+
+input:invalid + label[for$="pass"]::after{
+    visibility: visible;
+}
+
 
 ::placeholder{
     color: #7d89acad;
