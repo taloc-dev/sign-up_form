@@ -220,3 +220,13 @@ button:active{
 .log-in-opt{
     margin-left: 70px;
 }
+
+span a{
+    color: rgb(240, 84, 79);
+}
+span a:hover{
+    color: rgb(214, 74, 70);
+}
+span a:active{
+    color: rgb(190, 66, 62);
+}
