@@ -199,10 +199,10 @@ input:user-invalid + label[for$="pass"]::after{
     margin-right: 70px;
     margin-bottom: 40px;
 
-    font-size: clamp(.75rem, 0.2rem + 2vw, 1.5rem);
+    font-size: clamp(1rem, 0.2rem + 2vw, 1.5rem);
     line-height: 1.5;
 
-    width:  clamp(250px, 45 + 1vw, 60ch);
+    width: min(60ch, 70%);
 }
 
 button{
