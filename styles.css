@@ -95,6 +95,7 @@ fieldset{
     background-color: #E8E9EB;
     padding: 20px;
     padding-top: 50px;
+    padding-left: 70px;
 
     margin: 0;
     position: relative;
@@ -116,7 +117,7 @@ legend{
     flex-direction: column;
 
     flex: 1;
-    flex-basis: 30%;
+    flex-basis: 40%;
     margin: 15px 0;
     position: relative;
 }
