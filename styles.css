@@ -115,8 +115,9 @@ legend{
     display: flex;
     flex-direction: column;
 
-    width: 400px;
-    margin: 15px 50px;
+    flex: 1;
+    flex-basis: 30%;
+    margin: 15px 0;
     position: relative;
 }
 
@@ -195,12 +196,13 @@ input:user-invalid + label[for$="pass"]::after{
 
 .service-desc{
     margin-left: 70px;
+    margin-right: 70px;
     margin-bottom: 40px;
 
-    font-size: clamp(1rem, 0.2rem + 4vw, 1.5rem);
+    font-size: clamp(.75rem, 0.2rem + 2vw, 1.5rem);
     line-height: 1.5;
 
-    width: 60ch;
+    width:  clamp(250px, 45 + 1vw, 60ch);
 }
 
 button{
